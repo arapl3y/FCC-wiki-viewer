@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    vertical-align: baseline;
+}
+
+body {
+    font-family: 'Menlo', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: #de5a5a;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+.container-fluid {
+    width: 80%;
+    max-width: 768px;
+    margin: 30px auto;
+}
+
+.jumbotron {
+    margin: 30px auto;
+    text-align: center;
+    height: auto;
+    overflow: hidden;
+}
+
+.btn {
+    display: block;
+    margin: 0 auto;
+    background: transparent;
+    border-color: #de5a5a;
+    color: #de5a5a;
+}
+
+.btn:hover {
+    background: #de5a5a;
+    color: white;
+    border-color: #de5a5a;
+}
+
+.btn:focus {
+    outline: 0;
+    background: transparent;
+    border-color: #de5a5a;
+    color: #de5a5a;
+}
+
+.btn-primary {
+    margin-bottom: 20px;
+    width: 20%;
+}
+
+.btn-secondary {
+    height: 34px;
+}
+
+.glyphicon {
+    font-size: 1.4em;
+}
+
+.input-group {
+    width: 60% !important;
+    margin: 0 auto;
+}
+
+.form-control {
+    border-color: #de5a5a;
+}
+
+@media screen and (max-width: 600px) {
+    .input-group {
+        width: 90% !important;
+    }
+    .btn-primary {
+        width: 50%;
+    }
+}
+
+.pages {
+    margin-top: 20px;
+}
+
+.item {
+    text-align: left;
+    padding: 20px 10px;
+    border-left: 4px solid transparent;
+}
+
+.item:hover {
+    border-left: 4px solid #de5a5a;
+}
+
+.item:first-of-type {
+    margin-top: 20px;
+}
+
+.item .title {
+    font-size: 1.4em;
+    color: #de5a5a;
+}
+
+.item .title:hover {
+    text-decoration: underline;
+}
+
+.description {
+    text-align: left;
+    font-size: 1.2em;
+    margin-left: 20px;
+}
