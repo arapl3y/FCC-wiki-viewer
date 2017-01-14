@@ -5,6 +5,10 @@
     vertical-align: baseline;
 }
 
+html {
+	height: 100%;
+}
+
 body {
     font-family: 'Menlo', sans-serif;
     margin: 0;
@@ -22,6 +26,7 @@ a, a:hover {
     width: 80%;
     max-width: 768px;
     margin: 30px auto;
+		padding-bottom: 150px;
 }
 
 .jumbotron {
@@ -114,4 +119,23 @@ a, a:hover {
     text-align: left;
     font-size: 1.2em;
     margin-left: 20px;
+}
+
+.footer {
+	text-align: center;
+	position: relative;
+	height: 150px;
+	margin-top: -150px;
+	clear: both;
+	padding-top: 20px;
+}
+
+.footer i {
+	font-size: 3em;
+	color: #eee;
+	transition: 0.2s ease-in-out;
+}
+
+.footer i:hover {
+	opacity: 0.8;
 }
